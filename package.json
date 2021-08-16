@@ -1,0 +1,27 @@
+{
+	"name": "front-end-notes",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"directories": {
+		"doc": "docs"
+	},
+	"scripts": {
+		"docs:dev": "vuepress dev docs --temp .temp",
+		"docs:build": "vuepress build docs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/StarSky1993/Front-End-Notes.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/StarSky1993/Front-End-Notes/issues"
+	},
+	"homepage": "https://github.com/StarSky1993/Front-End-Notes#readme",
+	"dependencies": {
+		"moment": "^2.29.1"
+	}
+}
