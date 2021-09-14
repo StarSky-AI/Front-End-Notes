@@ -8,7 +8,8 @@
 	},
 	"scripts": {
 		"docs:dev": "vuepress dev docs --temp .temp",
-		"docs:build": "vuepress build docs"
+		"docs:build": "vuepress build docs",
+		"deploy": "bash deploy.sh"
 	},
 	"repository": {
 		"type": "git",
@@ -23,5 +24,8 @@
 	"homepage": "https://github.com/StarSky1993/Front-End-Notes#readme",
 	"dependencies": {
 		"moment": "^2.29.1"
+	},
+	"devDependencies": {
+		"vuepress-plugin-auto-sidebar": "^2.3.2"
 	}
 }
