@@ -26,4 +26,17 @@ for of 与 for in 的区别:(for in 通过下标进行取值， for of 直接取
 		console.log(value.title); // 我是标题1 我是标题2 我是标题3
 		console.log(value.lesson); // 1 2 3
 	}
+	//for of 循环会改变引用类型里面的值，但不会改变数值类型的值。
+	let arr = [1,2,3];
+	for(let value of arr) {
+		value += 10;
+	}
+	console.log(arr) // [1,2,3]
+	let arr2 = [{num: 1},{num:2},{num:3}];
+	for(let value of arr2) {
+		value.num += 10;
+	}
+	console.log(arr2) // [{num: 11},{num: 12},{num: 13}]
+	
+	
 	

@@ -33,7 +33,8 @@ module.exports = {
 				title: 'ECMAScript5',
 				path: '/javascript/ecmascript5/var',
 				children: [
-					'/javascript/ecmascript5/var', '/javascript/ecmascript5/var-lift',
+					'/javascript/ecmascript5/var',
+					'/javascript/ecmascript5/var-lift',
 					'/javascript/ecmascript5/global-pollution',
 					'/javascript/ecmascript5/block-level-scope',
 					'/javascript/ecmascript5/operator',
@@ -63,7 +64,13 @@ module.exports = {
 					'/javascript/ecmascript5/isArray',
 					'/javascript/ecmascript5/pop',
 					'/javascript/ecmascript5/unshift',
-					'/javascript/ecmascript5/slice'
+					'/javascript/ecmascript5/slice',
+					'/javascript/ecmascript5/arr-move',
+					'/javascript/ecmascript5/arr-clear',
+					'/javascript/ecmascript5/split',
+					'/javascript/ecmascript5/concat',
+					'/javascript/ecmascript5/sort',
+					'/javascript/ecmascript5/forEach'
 				]
 			}, {
 				title: 'ECMAScript6',
@@ -82,7 +89,13 @@ module.exports = {
 					'/javascript/ecmascript6/for-dom',
 					'/javascript/ecmascript6/Deconfiguration',
 					'/javascript/ecmascript6/arr-add',
-					'/javascript/ecmascript6/array-fill'
+					'/javascript/ecmascript6/array-fill',
+					'/javascript/ecmascript6/find',
+					'/javascript/ecmascript6/findIndex',
+                    '/javascript/ecmascript6/operationDom',
+                    '/javascript/ecmascript6/iterator',
+                    '/javascript/ecmascript6/every',
+                    '/javascript/ecmascript6/some'
 				]
 			}]
 		}]

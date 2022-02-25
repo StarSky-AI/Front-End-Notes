@@ -16,7 +16,9 @@ git init
 git add -A
 git commit -m 'deploy'
 
+
+
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://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@github.com/StarSky1993/Front-End-Notes.git master:gh-pages
+git push -f https://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@github.com/StarSky1993/Front-End-Notes.git master:gh-pages
 
 cd -
