@@ -19,6 +19,6 @@ git commit -m 'deploy'
 
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://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@github.com/StarSky1993/Front-End-Notes.git master:gh-pages
+git push -f https://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@github.com/StarSky1993/Front-End-Notes.git master:gh-pages
 
 cd -
